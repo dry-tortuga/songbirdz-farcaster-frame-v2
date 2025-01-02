@@ -5,8 +5,8 @@ import "~/app/globals.css";
 import { Providers } from "~/app/providers";
 
 export const metadata: Metadata = {
-  title: "Farcaster Frames v2 Demo",
-  description: "A Farcaster Frames v2 demo app",
+  title: "Songbirdz",
+  description: "An onchain bird watching game.",
 };
 
 export default async function RootLayout({
@@ -15,7 +15,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const session = await getSession()
-  
+
   return (
     <html lang="en">
       <body>
